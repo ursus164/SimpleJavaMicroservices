@@ -37,6 +37,7 @@ This repository contains an application demonstrating synchronous and asynchrono
    - Retrieves and processes notifications.
    - Service only needs to RUN in the background - all notifications from que will be showed in console.
 
+![430055964_1761693447676740_8037789869945500776_n (2)](https://github.com/ursus164/SimpleJavaMicroservices/assets/101526933/723009aa-9da1-4e3a-8ad3-86ffc6c3d395)
 
    
 
