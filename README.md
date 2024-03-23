@@ -54,9 +54,7 @@ This repository contains an application demonstrating synchronous and asynchrono
  - H2Database
 
 ### Steps:
-1. Clone the repository:
-   ```sh
-   git clone https://github.com/your/repository.git
+1. Download or clone repository
 
 2. Open project in your IDE, and then navigate to application.properties files in Publisher and Reciever services.
 
