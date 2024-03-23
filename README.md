@@ -70,3 +70,6 @@ This repository contains an application demonstrating synchronous and asynchrono
 7. Reciever will collect all notifications from RabbitMQ que and show them in console
 
 8. Once it has been done - you can add students to database, and check notifications being sent and recieved as I mentioned above.
+
+### Additional:
+It is possible to add SMTP client and have notifications sent by email :)
