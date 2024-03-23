@@ -12,7 +12,7 @@ This repository contains an application demonstrating synchronous and asynchrono
      - `POST /students` - Add a new student
      - `PUT /students/{id}` - Update student by ID
      - `DELETE /students/{id}` - Delete student by ID
-     - `PATCH /students/{id}` - Edit data (not all)
+     - `PATCH /students/{id}` - Edit data
     - For example we can add student to database by :  `http://localhost:8070/students` with
       JSON containing - `{ "name":"Maciej", "surname":"Bogdaniecki", "email":"bogdan@gmail.com"}`
       
