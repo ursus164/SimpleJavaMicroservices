@@ -35,7 +35,7 @@ This repository contains an application demonstrating synchronous and asynchrono
 4. **RECEIVER Service** (Port: 8080):
    - Listens for notifications from RabbitMQ.
    - Retrieves and processes notifications.
-   - Service only needs to RUN in the background - all notifications from Rabbit queue will be showed in console.
+   - Service only needs to work in the background - all notifications from Rabbit queue will be showed in console.
 
 ![430055964_1761693447676740_8037789869945500776_n (2)](https://github.com/ursus164/SimpleJavaMicroservices/assets/101526933/723009aa-9da1-4e3a-8ad3-86ffc6c3d395)
 
@@ -61,15 +61,9 @@ This repository contains an application demonstrating synchronous and asynchrono
 
 3. Add your own AMQP address which you can generate on  CloudAMQP website after creating account - it is neccesary in order to get RabbitMQ working.
 
-4. Independently start 3 services - Publisher, Reciever and Students.
+4. Independently start 3 services - Publisher, Reciever and Students. Publisher service will send synchronously HTTP request to database to retrieve data for provided ID. Notification will be prepared with student data, and then sent to RabbitMQ. Reciever will collect all notifications from RabbitMQ queue and show them in console
 
-5. Publisher service will send synchronously HTTP request to database to retrieve data for provided ID.
-
-6. Notification will be prepared with student data, and then sent to RabbitMQ.
-
-7. Reciever will collect all notifications from RabbitMQ queue and show them in console
-
-8. Once it has been done - you can add students to database, and check notifications being sent and recieved as I mentioned above.
+5. Once it has been done - you can add students to database, and check notifications being sent and recieved as I mentioned above.
 
 ### Additional:
 It is possible to add SMTP client and have notifications sent by email :)
