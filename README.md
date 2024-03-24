@@ -13,9 +13,8 @@ This repository contains an application demonstrating synchronous and asynchrono
      - `PUT /students/{id}` - Update student by ID
      - `DELETE /students/{id}` - Delete student by ID
      - `PATCH /students/{id}` - Edit data
-    - For example we can add student to database by :  `http://localhost:8070/students` with
+    - For example we can add student (via for example `Postman`) to database by :  `http://localhost:8070/students` with
       JSON containing - `{ "name":"Maciej", "surname":"Bogdaniecki", "email":"bogdan@gmail.com"}`
-   - I recommend testing API endpoints with Postman.
       
       
 
