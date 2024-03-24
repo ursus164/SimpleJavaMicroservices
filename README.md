@@ -67,7 +67,7 @@ This repository contains an application demonstrating synchronous and asynchrono
 
 6. Notification will be prepared with student data, and then sent to RabbitMQ.
 
-7. Reciever will collect all notifications from RabbitMQ que and show them in console
+7. Reciever will collect all notifications from RabbitMQ queue and show them in console
 
 8. Once it has been done - you can add students to database, and check notifications being sent and recieved as I mentioned above.
 
