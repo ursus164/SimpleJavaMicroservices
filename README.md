@@ -15,6 +15,8 @@ This repository contains an application demonstrating synchronous and asynchrono
      - `PATCH /students/{id}` - Edit data
     - For example we can add student to database by :  `http://localhost:8070/students` with
       JSON containing - `{ "name":"Maciej", "surname":"Bogdaniecki", "email":"bogdan@gmail.com"}`
+   - I recommend testing API endpoints with Postman.
+      
       
 
        
@@ -66,4 +68,4 @@ This repository contains an application demonstrating synchronous and asynchrono
 5. Once it has been done - you can add students to database, and check notifications being sent and recieved as I mentioned above.
 
 ### Additional:
-It is possible to add SMTP client and have notifications sent by email :)
+- It is possible to add SMTP client and have notifications sent by email :)
